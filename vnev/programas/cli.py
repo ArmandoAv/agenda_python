@@ -83,7 +83,7 @@ def actualiza_usuario(id, nombre, apellido, numero_celular):
                 usuario['numero_celular'] = int(numero_celular)
             break
     manipula_bitacora.escribir_json(datos)
-    print(f"El susario con id {id} ha sido actualizado"
+    print(f"El usuario con id {id} ha sido actualizado"
           "\nFavor de validar los cambios en la bitacora con el comando usuarios.")
 
 
