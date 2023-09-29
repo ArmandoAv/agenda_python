@@ -28,7 +28,7 @@ You can update one o more data:
 
 nuevo-usuario:
 
-    python cli.py -- nuevo-usuario --nombre <new_first_name> --apellido <new_last_name> --numero_celular <new_cell_phone_number>
+    python cli.py -- nuevo-usuario --nombre <update_first_name> --apellido <update_last_name> --numero_celular <update_cell_phone_number>
     
 Create a new user, the ID is created automatically
 
