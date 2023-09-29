@@ -59,7 +59,8 @@ def busca_usuario(id):
     datos = manipula_bitacora.leer_json()
     usuario = next((x for x in datos if x['id'] == id), None)
     if usuario is None:
-        print(f"El usuario con el id {id} no se encuentra")
+        print(f"El usuario con el id {id} no existe."
+              "\nFavor de consultar los usuarios en la bitacora para validar que usuario se desea borrar.")
     else:
         print(
             f"{usuario['id']} - {usuario['nombre']} - {usuario['apellido']} - {usuario['numero_celular']}")
