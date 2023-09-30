@@ -4,7 +4,7 @@ This project creates an agenda in a json file with an ID, first name, last name 
 
 In the project folder create a virtual environment whit the following command:
 
-    python - n vnev vnev
+    python - n venv vnev
 
 Once the virtual environment is created, execute the commands:
 
